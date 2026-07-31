@@ -4,10 +4,8 @@ public:
         int n=weights.size();
         int start=0,end=0,ans,mid;
         for(int i=0;i<n;i++)
-        {
-            start=max(start,weights[i]);
-            end+=weights[i];
-        }
+        {start=max(start,weights[i]);
+            end+=weights[i];}
         while(start<=end)
         {
             mid=start+(end-start)/2;

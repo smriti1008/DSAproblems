@@ -9,6 +9,8 @@ public:
             while (i >= 0 && word1[i] != word2[j]) i--;
             if (i < 0) break;
             suf[j] = i;
+
+            
             i--;
         }
 

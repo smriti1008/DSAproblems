@@ -15,6 +15,7 @@ public:
             else if(c=='D')
             return 500;
             else
+                    
             return 1000;
         }
     int romanToInt(string s) {

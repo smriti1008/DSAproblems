@@ -12,6 +12,8 @@ public:
         for(char x : word)
         {
             if(x==c)
+
+                
             count++;
         }
         mincount = min(mincount, count);

@@ -11,6 +11,7 @@ public:
             {
                 count++;
                 i++;
+                
             }
             chars[ans]=ch;
             ans++;

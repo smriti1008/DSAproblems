@@ -17,6 +17,7 @@ public:
             else
                     
             return 1000;
+                
         }
     int romanToInt(string s) {
     int sum=0, index=0;

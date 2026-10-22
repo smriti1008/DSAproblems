@@ -16,6 +16,7 @@ public:
         if(root==NULL)
         {
             return;
+            
         }
         queue<TreeNode*> q;
         q.push(root);

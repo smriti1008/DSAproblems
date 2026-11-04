@@ -10,11 +10,8 @@ public:
             int count = 0;
         
         for(char x : word)
-        {
-            
+        { 
             if(x==c)
-
-                
             count++;
         }
         mincount = min(mincount, count);

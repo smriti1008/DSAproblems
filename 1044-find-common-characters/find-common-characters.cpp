@@ -11,6 +11,7 @@ public:
         
         for(char x : word)
         {
+            
             if(x==c)
 
                 

@@ -7,7 +7,6 @@ public:
         for(int end = 0; end < nums.size(); end++)
         {
             sum+=nums[end];
-            long long score = sum*(end-start+1);
             while(sum * (end - start + 1)>=k && start<=end)
             {
                 sum-=nums[start];

@@ -21,7 +21,6 @@ public:
         }
         flatten(root->right);
         flatten(root->left);
-
         root->left = NULL;
         root->right = nextRight;
         nextRight = root;

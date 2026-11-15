@@ -35,6 +35,7 @@ public:
 
             if(curr->left!=NULL)
             {
+
                 q.push(curr->left);
                 
             }

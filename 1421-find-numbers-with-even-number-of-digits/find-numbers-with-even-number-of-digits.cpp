@@ -13,7 +13,6 @@ public:
                 digits++;
                 num = num / 10;
             }
-
             if (digits % 2 == 0) {
                 ans++;
             }

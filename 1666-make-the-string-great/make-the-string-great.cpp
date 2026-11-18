@@ -4,7 +4,7 @@ public:
         string ans ="";
         for(int i = 0; i<s.length(); i++)
         {
-            if(!ans.empty() && abs(ans.back()-s[i])==32)
+         if(!ans.empty() && abs(ans.back()-s[i])==32)
             {
                 ans.pop_back();
             }

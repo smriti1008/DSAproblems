@@ -8,7 +8,6 @@ public:
         for(string word : words)
         {
             int count = 0;
-        
         for(char x : word)
         { 
             if(x==c)

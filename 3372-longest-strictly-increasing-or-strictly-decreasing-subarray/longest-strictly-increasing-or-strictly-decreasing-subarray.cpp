@@ -8,7 +8,6 @@ public:
         int maxLen = 1;
         int incLen = 1;
         int decLen = 1;
-
         for(int i = 1; i<nums.size(); i++)
         {
             if(nums[i]>nums[i-1])

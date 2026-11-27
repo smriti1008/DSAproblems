@@ -21,8 +21,7 @@ public:
                 curr->next = curr->next->next;
             }
             else
-            {
-                curr = curr->next;
+            {curr = curr->next;
             }
         }
         return dummy->next;

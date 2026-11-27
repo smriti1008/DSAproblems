@@ -11,7 +11,6 @@ public:
                 maxVal = max(maxVal, x);
             }
         }
-
         int bits = 0;
         while ((1LL << bits) <= maxVal) {
             bits++;

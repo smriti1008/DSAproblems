@@ -16,7 +16,6 @@ public:
         while ((1LL << bits) <= maxVal) {
             bits++;
         }
-
         int limit = 1 << bits;
 
         vector<vector<vector<bool>>> dp(
